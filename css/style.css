@@ -1,0 +1,35 @@
+/*Estilo do Banner*/
+#banner{
+    background-color: rgba(0, 0, 0, 0.349);
+    height: 76px;
+    padding: 30px 70px 30px 70px;  
+}
+
+#banner h1{
+    float: left;
+    margin: 0;
+}
+
+#banner ul{
+    margin: 0;
+}
+
+#banner nav{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+#banner nav ul li{
+    display: inline-block;
+    width: 100px; 
+}
+
+#banner nav ul li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
