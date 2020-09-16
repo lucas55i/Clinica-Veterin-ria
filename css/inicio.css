@@ -1,0 +1,35 @@
+/*Estilo do Banner*/
+#menu{
+    background-color:#FFE4C4;
+    height: 76px;
+    padding: 30px 70px 30px 70px;  
+}
+
+#menu h1{
+    float: left;
+    margin: 0;
+}
+
+#menu ul{
+    margin: 0;
+}
+
+#menu nav{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+#menu nav ul li{
+    display: inline-block;
+    width: 100px; 
+}
+
+#menu nav ul li a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
