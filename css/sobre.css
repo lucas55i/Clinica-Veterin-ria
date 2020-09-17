@@ -1,6 +1,15 @@
+body{
+    
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
 /*Estilo do Banner*/
 #menu{
-    background-color:#FFE4C4;
+    background-color:#ffe4c4c7;
     height: 76px;
     padding: 30px 70px 30px 70px;  
 }

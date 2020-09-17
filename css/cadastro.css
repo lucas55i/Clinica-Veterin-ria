@@ -1,6 +1,13 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /*Estilo do Banner*/
 #menu{
-    background-color:#FFE4C4;
+    background-color:#ffe4c4c7;
     height: 76px;
     padding: 30px 70px 30px 70px;  
 }
@@ -27,9 +34,78 @@
 
 #menu nav ul li a{
     color: #000000;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase; 
 }
+
+h1{
+    font: 'Arial', cursive;
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+
+
+form{
+    padding-left: 65px;
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    right:auto;
+    background-color:#fff599be;
+    float: left;
+}
+
+
+label{
+    padding-top: 25px;
+    padding-left: 25px;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 30;
+}
+
+
+input{
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;
+    font: 20px'Arial', cursive;
+}
+
+
+ select{
+    width: 93%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;
+    font: 20px'Arial', cursive;
+ }
+
+ textarea{
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;
+    font: 20px'Arial', cursive;
+ }
+
+ input[type='submit']{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;   
+}
+
 
