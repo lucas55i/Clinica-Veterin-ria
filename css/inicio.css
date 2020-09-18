@@ -1,5 +1,5 @@
 body{
-    background:url("/home/jesus/Faculdade/ClinicaVeterinaria/img/dog_feliz.jpg");
+    background-image: url('img/dog_feliz.jpg');
 
 }
 *{
@@ -11,6 +11,8 @@ body{
     background-color:#ffe4c49a;
     height: 76px;
     padding: 30px 70px 30px 70px;  
+    font: 25px 'Fredoka One', cursive;
+
 }
 
 #menu h1{

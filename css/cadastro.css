@@ -1,4 +1,8 @@
+body{
+    
+    
 
+}
 
 *{
     margin: 0;
@@ -10,6 +14,8 @@
     background-color:#ffe4c4c7;
     height: 76px;
     padding: 30px 70px 30px 70px;  
+    font: 25px 'Fredoka One', cursive;
+
 }
 
 #menu h1{
@@ -41,71 +47,88 @@
 }
 
 h1{
-    font: 'Arial', cursive;
-    color: rgb(0, 0, 0);
+    font: 60px 'Fredoka One', cursive;
+    color: blanchedalmond;
     float: left;
     width: 100%;
     margin-top: 50px;
     padding-left: 20px;
+    
 }
 
 
+/* FORMULARIO DE CADASTRO */
 
 form{
-    padding-left: 65px;
-    width: 600px;
-    height: 100%;
-    position: absolute;
-    right:auto;
-    background-color:#fff599be;
-    float: left;
+    width: 50%;
+    
+
 }
-
-
 label{
-    padding-top: 25px;
     padding-left: 25px;
     float: left;
     width: 100%;
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: blanchedalmond;
     font-size: 30;
-}
+    padding-top: 10px;
 
+}
 
 input{
-    text-align: center;
-    width: 90%;
-    height: 40px;
-    border-radius: 20px;
-    padding: 2px 20px #000000;
-    font: 20px'Arial', cursive;
-}
-
-
- select{
-    width: 93%;
-    height: 40px;
-    border-radius: 20px;
-    padding: 2px 20px #000000;
-    font: 20px'Arial', cursive;
- }
-
- textarea{
-    text-align: center;
-    width: 90%;
-    height: 40px;
-    border-radius: 20px;
-    padding: 2px 20px #000000;
-    font: 20px'Arial', cursive;
- }
-
- input[type='submit']{
+    padding-left: 25px;
     float: left;
-    width: 150px;
+    width: 45%;
     height: 40px;
     border-radius: 20px;
-    padding: 2px 20px #000000;   
+    font: 20px'Arial', cursive;
+
 }
+
+select{
+    width: 48%;
+    float: left;
+    margin-bottom: 10px;
+    color: rgb(5, 4, 2);
+    font-size: 30;
+    float: left;
+
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;
+    font: 20px'Arial', cursive;
+
+}
+
+button{
+    float: left;
+    width: 45%;
+    margin-bottom: 10px;
+    color: rgb(14, 10, 4);
+    font-size: 30;
+
+    float: left;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;
+    font: 20px'Arial', cursive;
+
+}
+
+textarea{
+    float: left;
+    width: 48%;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-size: 30;
+    float: left;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px 20px #000000;
+    font: 20px'Arial', cursive;
+}
+
+
+
 
 
